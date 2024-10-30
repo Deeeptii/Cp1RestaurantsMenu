@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Restaurant</title>
+    <style>
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color:black;
+            text-align: center;
+        }
+
+        /* Header styling with vibrant color */
+        header {
+            background-color: lightblue; /* Tomato color */
+            color: white;
+            padding: 20px;
+        }
+
+        /* Main container styling */
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 10px 20px;
+        }
+
+        /* Section styling for About, Menu, and Contact */
+        .about, .menu, .contact {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        /* Shrinking the About section image */
+        .about img {
+            width: 60%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* Menu styling with image alignment and larger items */
+        .menu-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .menu-column {
+            width: 48%;
+        }
+
+        .menu-column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .menu-column ul li {
+            display: flex;
+            align-items: center;
+            background-color: lightgoldenrodyellow;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            color: maroon;
+            font-size: 1.2em;
+        }
+        
+        .menu-column ul li img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Savory Symphony</h1>
+        <p>Delicious Food, Great Atmosphere</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- About Us Section -->
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <img src="./WhatsApp Image 2024-10-29 at 12.46.59.jpg"  alt="Restaurant Image"> 
+             <p>Experience the best food in town with a cozy atmosphere and friendly service.</p>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-content">
+                <!-- Left Column of Menu -->
+                <div class="menu-column">
+                    <ul>
+                        <li>Grilled Chicken Salad - Rs 99 <img src="./5.jpg" alt="Grilled Chicken Salad"></li>
+                        <li>Margherita Pizza - Rs 399 <img src="./6.jpg" alt="Margherita Pizza"></li>
+                        <li>Spaghetti Carbonara - Rs 350 <img src="./3.jpg" alt="Spaghetti Carbonara"></li>
+                        <li>Cheeseburger with Fries - Rs 299 <img src="./2.jpg" alt="Cheeseburger with Fries"></li>
+                        <li>Chocolate Lava Cake - Rs 50 <img src="./4.jpg" alt="Chocolate Lava Cake"></li>
+                    </ul>
+                </div>
+                
+                <!-- Right Column of Menu -->
+                <div class="menu-column">
+                    <ul>
+                        <li>Veggie Wrap - Rs 89 <img src="./8.jpg" alt="Veggie Wrap"></li>
+                        <li>Chicken Alfredo Pasta - Rs 249 <img src="./7.jpg" alt="Chicken Alfredo Pasta"></li>
+                        <li>BBQ Ribs - Rs 499 <img src="./9.jpg" alt="BBQ Ribs"></li>
+                        <li>Greek Salad - Rs 120 <img src="./10.jpg" alt="Greek Salad"></li>
+                        <li>Fruit Smoothie - Rs 70 <img src="./11.jpg" alt="Fruit Smoothie"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Location: 123 Main Street, City: Bangalore</p>
+            <p>Phone: (+91) 1234556789</p>
+            <p>Email: info@savorysymphony.com</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Savory Symphony. All rights reserved.</p>
+    </footer>
+</body>
+</html>
